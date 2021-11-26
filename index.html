@@ -5,11 +5,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+        type="text/css">
+    <title>Nicole's Portfolio</title>
 </head>
 
 <body>
-    <h1>This was editied!</h1>
+    <!--NAVIGATION BAR-->
+    <nav class="header">
+        <div id="header-shade"></div>
+        <div class="main-header">
+            <i class="snes-logo"></i>
+            <div class="name">Nicole Low</div>
+        </div>
+    </nav>
+
+    <!--BODY CONTENT-->
+    <div class="container container1">
+        <div class="row">
+            <div class="col">
+                <i class="nes-kirby"></i>
+            </div>
+            <div class="col-sm-9 col-xs12">
+                <div class="nes-balloon from-left">
+                    <p>
+                        Hi, I'm Nicole! Come and get to know me a little better.
+                        <i class="nes-icon is-small heart"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container2">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12 contain">
+                <div class="nes-container with-title is-rounded" id="purple">
+                    <h3 class="title">Who am I?</h3>
+                    <ul class="nes-list is-disc">
+                        <li>Design Computing Student</li>
+                        <li>Software Development Student</li>
+                        <li>Web Development Student</li>
+                    </ul>
+                </div>
+
+                <div class="nes-container with-title is-rounded" id="white">
+                    <h3 class="title">Achievements</h3>
+                    <div>
+                        <i class="nes-icon trophy is-small"></i>
+                        E-Volution Student Lab 2019
+                    </div>
+
+                    <div>
+                        <i class="nes-icon trophy is-small"></i>
+                        Dean's List Jan 2019
+                    </div>
+
+                    <div>
+                        <i class="nes-icon trophy is-small"></i>
+                        Dean's List Aug 2019
+                    </div>
+                </div>
+
+                <div class="nes-container with-title is-rounded" id="purple">
+                    <h3 class="title">Contact Me</h3>
+                    <div class="social-links">
+                        <a href="">
+                            <i class="nes-icon instagram is-large"></i>
+                        </a>
+                        <a href="">
+                            <i class="nes-icon twitch is-large"></i>
+                        </a>
+                        <a href="">
+                            <i class="nes-icon facebook is-large"></i>
+                        </a>
+                        <a href="">
+                            <i class="nes-icon linkedin is-large"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--RIGHT CONTENT-->
+
+            <div class="col-md-8 col-sm-12 col-xs-12 contain2">
+                <div class="nes-container with-title is-rounded" id="white">
+                    <h3 class="title">Programming Skills</h3>
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">HTML[5]</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="80" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">CSS[3]</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="70" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">p5.js</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="70" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nes-container with-title is-rounded" id="purple">
+                    <h3 class="title">Design Skills [Adobe]</h3>
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">Illustrator</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="95" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">Photoshop</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-warning" value="50" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">Indesign</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="65" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nes-container with-title is-rounded" id="white">
+                    <h3 class="title">Animation Skills [Adobe]</h3>
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">After Effects</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="95" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">Premier Pro</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-success" value="70" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">Audition</div>
+                        <div class="col-sm-9 col-xs-12">
+                            <progress class="nes-progress is-warning" value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="topic-title">
+                    <i class="nes-icon star"></i>
+                    Previous Experience
+                </h4>
+                <div class="nes-container with-title" id="purple">
+
+                    <a href="#" class="nes-pointer">
+                        <div class="row xp">
+                            <div class="col-sm-2 col-xs-12">
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="p5-logo">
+                                    <title>p5.js</title>
+                                    <path
+                                        d="M1.345 9.122v.784h.035c.07-.11.161-.22.274-.333a1.85 1.85 0 0 1 .416-.305 2.557 2.557 0 0 1 1.253-.31 2.632 2.632 0 0 1 1.964.854c.242.266.429.578.561.936.133.36.2.745.2 1.159 0 .413-.065.801-.194 1.163a2.856 2.856 0 0 1-.549.948 2.642 2.642 0 0 1-.866.644c-.34.16-.723.24-1.152.24-.398 0-.763-.083-1.094-.246a1.86 1.86 0 0 1-.766-.668h-.024v3.558H0V9.12zm3.276 2.785c0-.219-.034-.435-.1-.65a1.82 1.82 0 0 0-.298-.579 1.503 1.503 0 0 0-.503-.416 1.53 1.53 0 0 0-.714-.157 1.44 1.44 0 0 0-.691.163 1.77 1.77 0 0 0-.52.421 1.795 1.795 0 0 0-.328.585 1.97 1.97 0 0 0 0 1.305 1.807 1.807 0 0 0 .328.58 1.687 1.687 0 0 0 .52.414c.203.105.434.159.691.159a1.483 1.483 0 0 0 1.217-.586c.132-.171.231-.366.297-.585a2.248 2.248 0 0 0 .1-.654zm13.682-3.054v6.223c0 .335-.028.653-.082.952a2.018 2.018 0 0 1-.31.785 1.623 1.623 0 0 1-.62.532c-.262.132-.602.199-1.024.199a2.676 2.676 0 0 1-.35-.024 3.507 3.507 0 0 1-.281-.047l.117-1.192a1.762 1.762 0 0 0 .386.047.752.752 0 0 0 .397-.094.627.627 0 0 0 .234-.258c.055-.109.09-.235.105-.38.016-.144.024-.298.024-.461V8.853zm4.784 1.765a1.621 1.621 0 0 0-.514-.427 1.449 1.449 0 0 0-.714-.18c-.226 0-.432.046-.62.14a.483.483 0 0 0-.28.467.47.47 0 0 0 .31.462c.206.09.508.182.906.276.21.047.423.109.638.187.214.077.41.18.585.31a1.53 1.53 0 0 1 .427.48c.109.19.163.423.163.695 0 .344-.064.634-.192.872-.13.238-.301.43-.515.58a2.169 2.169 0 0 1-.75.32 3.884 3.884 0 0 1-.883.101 3.507 3.507 0 0 1-1.275-.24 2.694 2.694 0 0 1-1.03-.685l.925-.866a1.828 1.828 0 0 0 1.44.703c.1 0 .204-.012.31-.035a1.052 1.052 0 0 0 .29-.112.607.607 0 0 0 .218-.205.58.58 0 0 0 .081-.316.52.52 0 0 0-.32-.503c-.216-.1-.538-.202-.967-.303a4.635 4.635 0 0 1-.614-.182 2.004 2.004 0 0 1-.531-.292 1.35 1.35 0 0 1-.375-.451 1.42 1.42 0 0 1-.14-.667c0-.311.064-.58.192-.806a1.66 1.66 0 0 1 .51-.556c.21-.145.447-.252.713-.322a3.184 3.184 0 0 1 .819-.105c.405 0 .801.07 1.187.21.386.14.692.355.919.643zm-8.29 2.931l.837-.252.164.505-.833.283.517.734-.436.316-.544-.721-.53.701-.423-.322.517-.708-.84-.302.165-.506.843.271v-.872h.564v.872zm-2.887-2.644a2.309 2.309 0 0 0-.602-.819 2.679 2.679 0 0 0-.907-.509 3.517 3.517 0 0 0-1.13-.175c-.148 0-.313.008-.497.024a2.435 2.435 0 0 0-.474.082l.082-1.79h3.382V6.453H7.05l-.14 4.527a3.487 3.487 0 0 1 .426-.175 6.564 6.564 0 0 1 .491-.147 4.487 4.487 0 0 1 .515-.099 3.78 3.78 0 0 1 .497-.035c.227 0 .45.025.668.076.218.05.415.14.591.269.174.129.317.298.426.509.11.21.164.476.164.795 0 .25-.04.474-.123.673a1.413 1.413 0 0 1-.333.497 1.443 1.443 0 0 1-.49.304c-.19.07-.388.106-.598.106-.375 0-.698-.1-.972-.299a1.631 1.631 0 0 1-.584-.79l-.015.006-1.016.952c.205.335.47.616.797.838.475.324 1.06.486 1.754.486a3.417 3.417 0 0 0 1.17-.2 2.705 2.705 0 0 0 1.609-1.491c.16-.362.24-.773.24-1.233 0-.422-.072-.794-.216-1.118z" />
+                                </svg>
+                            </div>
+                            <div class="col-sm-10 col-xs-12">
+                                <h4>p5.js Simulation Project</h4>
+                                <div>University of Sydney</div>
+                                <div>Design Programming</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER CONTENT-->
+    <footer>
+        <div class="row">
+            <div class="col-xs-12" id="gray">
+                Nicole Low 2021
+            </div>
+        </div>
+    </footer>
+    <div class="footer-shade"></div>
+
 </body>
 
 </html>
