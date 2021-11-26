@@ -48,6 +48,9 @@ a:hover {
     padding: 0 20px;
 }
 
+.xp {
+    margin-bottom: 40px;
+}
 
 #purple {
     background-color: #A994F2;
@@ -59,6 +62,12 @@ a:hover {
 
 .nes-kirby {
     margin-top: 50px;
+}
+
+.js-logo {
+    height: 70px;
+    color: #F7DF1E;
+    fill: currentColor;
 }
 
 .p5-logo {
@@ -87,3 +96,4 @@ footer {
     padding: 10px 0;
     background-color: #7459C3;
 }
+
